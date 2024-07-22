@@ -149,3 +149,4 @@ D:\API-REST-NET\RunWebAppGroup\RunWebAppGroup\obj\Debug\net8.0\refint\RunWebAppG
 D:\API-REST-NET\RunWebAppGroup\RunWebAppGroup\obj\Debug\net8.0\RunWebAppGroup.pdb
 D:\API-REST-NET\RunWebAppGroup\RunWebAppGroup\obj\Debug\net8.0\RunWebAppGroup.genruntimeconfig.cache
 D:\API-REST-NET\RunWebAppGroup\RunWebAppGroup\obj\Debug\net8.0\ref\RunWebAppGroup.dll
+D:\API-REST-NET\RunWebAppGroup\RunWebAppGroup\obj\Debug\net8.0\RunWebAppGroup.sourcelink.json
