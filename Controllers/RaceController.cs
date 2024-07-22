@@ -66,6 +66,7 @@ namespace RunWebAppGroup.Controllers
                     Description = raceVM.Description,
                     Image = result.Url.ToString(),
                     AppUserId= raceVM.AppUserId,
+                    RaceCategory=raceVM.RaceCategory,
                     Address = new Address
                     {
 

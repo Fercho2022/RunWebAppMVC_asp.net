@@ -7,7 +7,7 @@ namespace RunWebAppGroup.Extensions
         public static string GetUserId(this ClaimsPrincipal user)
         {
 
-            return user.FindFirst(ClaimTypes.Name).Value;
+            return user.FindFirst(ClaimTypes.NameIdentifier).Value;
         }
     }
 }
