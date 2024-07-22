@@ -112,60 +112,26 @@ namespace RunWebAppGroup.Data
                 }
             }
         }
-        //Define un método estático y asíncrono que devuelve una tarea (Task).
-        //Esto significa que el método puede ejecutarse de manera asíncrona y no
-        //bloquea el hilo de ejecución principal.
-        //SeedUsersAndRolesAsync: El nombre del método que se encarga de sembrar
-        //(crear) usuarios y roles.
-        //IApplicationBuilder applicationBuilder: Un parámetro que se usa para
-        //configurar la aplicación. Este parámetro proporciona servicios de la
-        //aplicación.
+
         public static async Task SeedUsersAndRolesAsync(IApplicationBuilder applicationBuilder)
         {
-            //using: Garantiza que los recursos se liberen una vez que se complete
-            //el bloque de código.
-            //var serviceScope = applicationBuilder.ApplicationServices.CreateScope(): Crea
-            //un alcance de servicios (serviceScope) que se utiliza para obtener
-            //servicios de dependencia necesarios para la operación.
             using (var serviceScope = applicationBuilder.ApplicationServices.CreateScope())
             {
                 //Roles
-                //var roleManager: Declara una variable para el administrador de roles.
-                //serviceScope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>:
-                //Obtiene una instancia del administrador de roles (RoleManager<IdentityRole>)
-                //del proveedor de servicios.
                 var roleManager = serviceScope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
-                
-                //Comprueba si el rol de administrador (Admin) no existe de forma asíncrona.
-               
+
                 if (!await roleManager.RoleExistsAsync(UserRoles.Admin))
-
-                    //Si el rol no existe, lo crea.
                     await roleManager.CreateAsync(new IdentityRole(UserRoles.Admin));
-
-                //Comprueba si el rol de usuario (User) no existe de forma asíncrona.
                 if (!await roleManager.RoleExistsAsync(UserRoles.User))
-
-                    // Si el rol no existe, lo crea.
                     await roleManager.CreateAsync(new IdentityRole(UserRoles.User));
 
                 //Users
-                //var userManager: Declara una variable para el administrador de usuarios.
-                //serviceScope.ServiceProvider.GetRequiredService<UserManager<AppUser>>:
-                //Obtiene una instancia del administrador de usuarios (UserManager<AppUser>)
-                //del proveedor de servicios.
                 var userManager = serviceScope.ServiceProvider.GetRequiredService<UserManager<AppUser>>();
-
-                //string adminUserEmail = "teddysmithdeveloper@gmail.com": Declara
-                //y asigna el correo electrónico del usuario administrador.
                 string adminUserEmail = "teddysmithdeveloper@gmail.com";
 
-                //Busca un usuario administrador por correo electrónico de forma asíncrona.
                 var adminUser = await userManager.FindByEmailAsync(adminUserEmail);
                 if (adminUser == null)
                 {
-                    //Crea una nueva instancia de AppUser con los detalles del
-                    //usuario administrador.
                     var newAdminUser = new AppUser()
                     {
                         UserName = "teddysmithdev",
@@ -178,16 +144,12 @@ namespace RunWebAppGroup.Data
                             State = "NC"
                         }
                     };
-                    //Crea el nuevo usuario administrador con una contraseña.
                     await userManager.CreateAsync(newAdminUser, "Coding@1234?");
-
-                    //Asigna al nuevo usuario administrador el rol de administrador.
                     await userManager.AddToRoleAsync(newAdminUser, UserRoles.Admin);
                 }
 
                 string appUserEmail = "user@etickets.com";
 
-                //Busca un usuario común por correo electrónico de forma asíncrona.
                 var appUser = await userManager.FindByEmailAsync(appUserEmail);
                 if (appUser == null)
                 {
@@ -203,10 +165,7 @@ namespace RunWebAppGroup.Data
                             State = "NC"
                         }
                     };
-                    //Crea el nuevo usuario común con una contraseña.
                     await userManager.CreateAsync(newAppUser, "Coding@1234?");
-
-                  
                     await userManager.AddToRoleAsync(newAppUser, UserRoles.User);
                 }
             }

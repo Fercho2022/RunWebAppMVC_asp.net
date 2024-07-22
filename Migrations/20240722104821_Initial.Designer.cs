@@ -12,7 +12,7 @@ using RunWebAppGroup.Data;
 namespace RunWebAppGroup.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240722030239_Initial")]
+    [Migration("20240722104821_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -167,12 +167,15 @@ namespace RunWebAppGroup.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("City")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("State")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Street")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -318,6 +321,7 @@ namespace RunWebAppGroup.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("EntryFee")
@@ -336,6 +340,7 @@ namespace RunWebAppGroup.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Title")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Twitter")
