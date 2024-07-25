@@ -1,4 +1,5 @@
 ﻿using RunWebAppGroup.Data;
+using RunWebAppGroup.Extensions;
 using RunWebAppGroup.Interfaces;
 using RunWebAppGroup.Models;
 
@@ -16,15 +17,15 @@ namespace RunWebAppGroup.Repository
         }
         public async Task<List<Club>> GetAllUserClubs()
         {
-            var curUser = _httpContextAccessor.HttpContext?.User;
-            var userClubs = _context.Clubs.Where(r => r.AppUserId == curUser.ToString());
+            var curUser = _httpContextAccessor.HttpContext?.User.GetUserId();
+            var userClubs = _context.Clubs.Where(r => r.AppUserId == curUser);
             return userClubs.ToList();
         }
 
         public async Task<List<Race>> GetAllUserRaces()
         {
-            var curUser = _httpContextAccessor.HttpContext?.User.ToString();
-            var userRaces = _context.Races.Where(r => r.AppUserId == curUser.ToString());
+            var curUser = _httpContextAccessor.HttpContext?.User.GetUserId();
+            var userRaces = _context.Races.Where(r => r.AppUserId == curUser);
             return userRaces.ToList();
         }
 

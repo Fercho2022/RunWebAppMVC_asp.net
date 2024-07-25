@@ -22,7 +22,7 @@ builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection(
 builder.Services.AddScoped<IClubRepository, ClubRepository>();
 builder.Services.AddScoped<IRaceRepository, RaceRepository>();
 builder.Services.AddScoped<IDashboardRepository, DashboardRepository>();
-
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IPhotoService, PhotoService>();
 
 // builder.Services: Se refiere al contenedor de servicios utilizado
