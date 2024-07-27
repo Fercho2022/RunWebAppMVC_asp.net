@@ -1,4 +1,5 @@
-﻿using RunWebAppGroup.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using RunWebAppGroup.Data;
 using RunWebAppGroup.Extensions;
 using RunWebAppGroup.Interfaces;
 using RunWebAppGroup.Models;
@@ -34,5 +35,21 @@ namespace RunWebAppGroup.Repository
             return  await _context.Users.FindAsync(id);
         }
 
+        public async Task<AppUser> GetUserByIdNoTracking(string id)
+        {
+            return await _context.Users.AsNoTracking().FirstOrDefaultAsync(u=>u.Id==id);
+        }
+
+        public bool Update(AppUser user)
+        {
+            _context.Users.Update(user);
+            return Save();
+        }
+
+        public bool Save()
+        {
+            var saved = _context.SaveChanges();
+            return saved > 0 ? true : false;
+        }
     }
 }
