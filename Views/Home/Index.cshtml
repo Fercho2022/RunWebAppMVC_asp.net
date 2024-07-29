@@ -26,7 +26,7 @@
 <div class="album py-5 bg-light">
     <div class="container">
         <div class="row">
-           
+            <h1 class="fw-light">Running clubs near @Model.City, @Model.State</h1>
             @if (Model.Clubs == null)
             {
                 <h1 class="fw-light">There are no running clubs in your area! <a asp-area="" asp-controller="Account"
@@ -36,7 +36,7 @@
             {
                 @foreach (var item in Model.Clubs)
                 {
-                    <h1 class="fw-light">Running clubs near @Model.City, @Model.State</h1>
+                   
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
                             <img src="@item.Image" class="bd-placeholder-img card-img-top" width="100%" height="225"></img>

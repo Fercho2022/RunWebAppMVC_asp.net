@@ -36,8 +36,8 @@ builder.Services.AddScoped<IPhotoService, PhotoService>();
 //que cada vez que se solicita una instancia de este servicio, se crea
 //una nueva instancia.
 
-builder.Services.AddTransient<Seed>();
 
+builder.Services.AddTransient<Seed>();
 builder.Services.AddDbContext<DataContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));

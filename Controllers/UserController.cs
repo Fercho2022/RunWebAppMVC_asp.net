@@ -17,6 +17,7 @@ namespace RunWebAppGroup.Controllers
         public async Task<IActionResult> Index()
         {
            var users= await _userRepository.GetAllUsers();
+
             List<UserViewModel> result= new List<UserViewModel>();
 
             foreach (var user in users)
