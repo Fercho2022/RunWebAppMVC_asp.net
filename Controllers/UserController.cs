@@ -29,7 +29,7 @@ namespace RunWebAppGroup.Controllers
                     UserName = user.UserName,
                     Pace = user.Pace,
                     Mileage = user.Mileage,
-                    ProfileImageUrl = user.ProfileImageUrl ?? "/img/avatar-male-4.jpg",
+                    ProfileImageUrl = user.ProfileImageUrl
 
 
                 };
@@ -48,6 +48,7 @@ namespace RunWebAppGroup.Controllers
                 UserName = user.UserName,
                 Pace = user.Pace,
                 Mileage = user.Mileage,
+                ProfileImageUrl=user.ProfileImageUrl
             };
             return View(userDetailViewModel);
 
