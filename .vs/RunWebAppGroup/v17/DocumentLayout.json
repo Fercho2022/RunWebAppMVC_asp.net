@@ -1,12 +1,71 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\API-REST-NET\\RunWebAppGroup\\RunWebAppGroup\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Cursos\\Net\\RunWebAppMVC_asp.net\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A949DBAF-31B0-4B23-B50A-0AB0047C3D72}|RunWebAppGroup.csproj|c:\\cursos\\net\\runwebappmvc_asp.net\\views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A949DBAF-31B0-4B23-B50A-0AB0047C3D72}|RunWebAppGroup.csproj|solutionrelative:views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A949DBAF-31B0-4B23-B50A-0AB0047C3D72}|RunWebAppGroup.csproj|c:\\cursos\\net\\runwebappmvc_asp.net\\viewmodels\\userdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A949DBAF-31B0-4B23-B50A-0AB0047C3D72}|RunWebAppGroup.csproj|solutionrelative:viewmodels\\userdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A949DBAF-31B0-4B23-B50A-0AB0047C3D72}|RunWebAppGroup.csproj|c:\\cursos\\net\\runwebappmvc_asp.net\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A949DBAF-31B0-4B23-B50A-0AB0047C3D72}|RunWebAppGroup.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDetailViewModel.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\RunWebAppMVC_asp.net\\ViewModels\\UserDetailViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\UserDetailViewModel.cs",
+              "ToolTip": "C:\\Cursos\\Net\\RunWebAppMVC_asp.net\\ViewModels\\UserDetailViewModel.cs",
+              "RelativeToolTip": "ViewModels\\UserDetailViewModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T12:37:53.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Cursos\\Net\\RunWebAppMVC_asp.net\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Cursos\\Net\\RunWebAppMVC_asp.net\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwDMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T12:31:27.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Cursos\\Net\\RunWebAppMVC_asp.net\\Views\\User\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Detail.cshtml",
+              "ToolTip": "C:\\Cursos\\Net\\RunWebAppMVC_asp.net\\Views\\User\\Detail.cshtml",
+              "RelativeToolTip": "Views\\User\\Detail.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T12:12:42.042Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,4 +1,6 @@
-﻿namespace RunWebAppGroup.ViewModels
+﻿using RunWebAppGroup.Models;
+
+namespace RunWebAppGroup.ViewModels
 {
     public class UserDetailViewModel
     {
@@ -11,5 +13,9 @@
         public int? Mileage { get; set; }
 
          public string ProfileImageUrl { get; set; }
+
+        public Address? Address { get; set; }
+
+
     }
 }

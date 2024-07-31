@@ -49,6 +49,7 @@ namespace RunWebAppGroup.Controllers
                 Pace = user.Pace,
                 Mileage = user.Mileage,
                 ProfileImageUrl=user.ProfileImageUrl
+                Address=
             };
             return View(userDetailViewModel);
 

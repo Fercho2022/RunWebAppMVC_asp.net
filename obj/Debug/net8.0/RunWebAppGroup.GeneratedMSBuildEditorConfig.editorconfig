@@ -9,103 +9,103 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RunWebAppGroup
 build_property.RootNamespace = RunWebAppGroup
-build_property.ProjectDir = D:\API-REST-NET\RunWebAppGroup\RunWebAppGroup\
+build_property.ProjectDir = C:\Cursos\Net\RunWebAppMVC_asp.net\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\API-REST-NET\RunWebAppGroup\RunWebAppGroup
+build_property.MSBuildProjectDirectory = C:\Cursos\Net\RunWebAppMVC_asp.net
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Account/Login.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Account/Register.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Club/Create.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Club/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2x1YlxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Club/Delete.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Club/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2x1YlxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Club/Detail.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Club/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2x1YlxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Club/Edit.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Club/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2x1YlxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Club/Index.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Club/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2x1YlxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Dashboard/EditUserProfile.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Dashboard/EditUserProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEVkaXRVc2VyUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Dashboard/Index.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Home/Index.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Home/Privacy.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Race/Create.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Race/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Race/Delete.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Race/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Race/Detail.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Race/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZVxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Race/Edit.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Race/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Race/Index.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Race/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Shared/Error.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/User/Detail.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/User/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/User/Index.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/_ViewImports.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/_ViewStart.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API-REST-NET/RunWebAppGroup/RunWebAppGroup/Views/Shared/_Layout.cshtml]
+[C:/Cursos/Net/RunWebAppMVC_asp.net/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fodjjscr5f

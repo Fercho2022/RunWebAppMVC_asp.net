@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\API-REST-NET\\RunWebAppGroup\\RunWebAppGroup\\RunWebAppGroup.csproj": {}
+    "C:\\Cursos\\Net\\RunWebAppMVC_asp.net\\RunWebAppGroup.csproj": {}
   },
   "projects": {
-    "D:\\API-REST-NET\\RunWebAppGroup\\RunWebAppGroup\\RunWebAppGroup.csproj": {
+    "C:\\Cursos\\Net\\RunWebAppMVC_asp.net\\RunWebAppGroup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\API-REST-NET\\RunWebAppGroup\\RunWebAppGroup\\RunWebAppGroup.csproj",
+        "projectUniqueName": "C:\\Cursos\\Net\\RunWebAppMVC_asp.net\\RunWebAppGroup.csproj",
         "projectName": "RunWebAppGroup",
-        "projectPath": "D:\\API-REST-NET\\RunWebAppGroup\\RunWebAppGroup\\RunWebAppGroup.csproj",
-        "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-        "outputPath": "D:\\API-REST-NET\\RunWebAppGroup\\RunWebAppGroup\\obj\\",
+        "projectPath": "C:\\Cursos\\Net\\RunWebAppMVC_asp.net\\RunWebAppGroup.csproj",
+        "packagesPath": "C:\\Users\\Standard\\.nuget\\packages\\",
+        "outputPath": "C:\\Cursos\\Net\\RunWebAppMVC_asp.net\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Standard\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -110,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
